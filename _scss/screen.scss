@@ -1,0 +1,25 @@
+@import 'base';
+
+body {
+	font-family: 'Source Sans Pro';
+	font-size: 4em;
+	background-color: #000;
+	color: #fff;
+}
+
+.container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.strategy {
+	text-align: center;
+	visibility: hidden;
+}
+
+
+.wf-sourcesanspro-n4-active .strategy {
+	visibility: visible;
+}
