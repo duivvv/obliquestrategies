@@ -1,39 +1,45 @@
 @import 'base';
 
 body {
+
 	font-family: 'Source Sans Pro';
 	font-size: 4em;
 	background-color: #000;
 	color: #fff;
+
 }
 
-.container {
+.strategy {
+
+	text-align: center;
+	visibility: hidden;
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translateX(-50%) translateY(-50%);
-}
-
-.strategy {
-	text-align: center;
-	visibility: hidden;
 
 	a {
 		color: white;
 		text-decoration: none;
 	}
+
 }
 
 .info {
+
+	padding: 10px;
 	visibility: hidden;
 	text-decoration: none;
 	color: #fff;
 	bottom: 10px;
 	right: 10px;
 	position: absolute;
+
 }
 
 .wf-sourcesanspro-n4-active .strategy,
 .wf-sourcesanspro-n4-active .info {
+
 	visibility: visible;
+
 }
