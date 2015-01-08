@@ -59,6 +59,9 @@ body {
 .strategy {
   text-align: center;
   visibility: hidden; }
+  .strategy a {
+    color: white;
+    text-decoration: none; }
 
 .info {
   visibility: hidden;

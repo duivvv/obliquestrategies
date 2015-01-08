@@ -7,9 +7,19 @@
 	}
 
 	function loaded(data){
-		cards = _.filter(data, function(card){ return card.edition === 4; });;
+		cards = _.filter(data, function(card){
+			return card.edition === 4;
+		});
+		getCard();
+		$('.strategy > a').on('click', getCard);
+	}
+
+	function getCard(e){
+		if(e){
+			e.preventDefault();
+		}
 		var card = cards[Math.round(Math.random()*(cards.length-1))];
-		$(".strategy").html("#" + card.cardnumber + "<br/>" + card.strategy);
+		$(".strategy > a").html("#" + card.cardnumber + "<br/>" + card.strategy);
 	}
 
 	init();
