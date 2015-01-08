@@ -19,7 +19,16 @@ body {
 	visibility: hidden;
 }
 
+.info {
+	visibility: hidden;
+	text-decoration: none;
+	color: #fff;
+	bottom: 10px;
+	right: 10px;
+	position: absolute;
+}
 
-.wf-sourcesanspro-n4-active .strategy {
+.wf-sourcesanspro-n4-active .strategy,
+.wf-sourcesanspro-n4-active .info {
 	visibility: visible;
 }
