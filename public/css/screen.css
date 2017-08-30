@@ -58,7 +58,7 @@ body {
   -ms-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%); }
   .strategy a {
-    color: white;
+    color: #fff;
     text-decoration: none; }
 
 .info {
